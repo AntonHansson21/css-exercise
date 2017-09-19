@@ -4,3 +4,12 @@
 .forsta {
     font-size: 30px;
 }
+a[href^="https"] {
+    color: green;
+}
+a[href$="asp"] {
+    color: yellow;
+}
+a[href*="music"] {
+    color: red;
+}
